@@ -16,7 +16,12 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </Menu.LayoutTransform>
-            <MenuItem x:Name="MenuItem1" Header="Menu(M)"/>
+            <MenuItem x:Name="MenuItem1" Header="Menu(M)">
+                <MenuItem Header="Exit(E)"/>
+            </MenuItem>
+            <MenuItem Header="Tools(T)">
+                <MenuItem x:Name="ItemSetting" Header="Setting...(S)" Click="ItemSetting_Click"/>
+            </MenuItem>
         </Menu>
 
     </Grid>

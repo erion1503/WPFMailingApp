@@ -24,5 +24,11 @@ namespace WPFMailingApp
         {
             InitializeComponent();
         }
+
+        private void ItemSetting_Click(object sender, RoutedEventArgs e)
+        {
+            UserSettingWindow frm = new UserSettingWindow();
+            frm.Show();
+        }
     }
 }
